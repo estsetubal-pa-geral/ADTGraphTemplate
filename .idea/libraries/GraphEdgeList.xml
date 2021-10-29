@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="ADT_Graph_Template">
+  <library name="GraphEdgeList">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../ADT_Graph.jar!/" />
     </CLASSES>

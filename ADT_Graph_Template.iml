@@ -7,6 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="ADT_Graph_Template" level="project" />
+    <orderEntry type="library" exported="" name="GraphEdgeList" level="project" />
   </component>
 </module>
