@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ADT_Graph_Template">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ADT_Graph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
