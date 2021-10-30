@@ -3,7 +3,7 @@ Este repositório consiste num projeto IntelliJ de suporte à lecionação dos t
 
 Os exercícios solicitados são os seguintes:
 
-##Exercícios
+## Exercício 1
 Este projeto contem integrada a api ADT_Graph.jar que disponibiliza uma implementação do ADT Graph.
 Pretende-se manipular o ADT Graph. Para tal define-se instância um Grafo usando para vértice objectos do tipo `Local`e para arestas obejectos do tipo `Bridge`.
 
@@ -16,7 +16,7 @@ Pretende-se manipular o ADT Graph. Para tal define-se instância um Grafo usando
 
 ![Graph](images/BridgesGraph.png)
  
-##Exercícios 2
+## Exercício 2
 Relembrando o pseudocodigo da travessia em profundidade - DFS
 
 ```pascal
