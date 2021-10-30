@@ -7,7 +7,7 @@ public class TADGraphMain {
     public static void main(String[ ] args){
 
         Graph<Local, Bridge> graph = new GraphEdgeList<>();
-
+    ///Complete
 
     }
 

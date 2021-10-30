@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="GraphEdgeList">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../ADT_Graph.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ADT_Graph.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/lib/doc" />
+    </JAVADOC>
     <SOURCES />
   </library>
 </component>
