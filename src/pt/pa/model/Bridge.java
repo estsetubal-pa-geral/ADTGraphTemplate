@@ -9,6 +9,10 @@ public class Bridge {
         this.cost = cost;
     }
 
+    public Bridge(String name) {
+        this(name,1);
+    }
+
     public String getName() {
         return name;
     }
