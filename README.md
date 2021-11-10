@@ -116,7 +116,7 @@ que, a partir do vértice Origem e do vértice de Destino, calcula o caminho mai
   -  O local B e o local C 
   -  O local A e o local D
 
-4. Crie outra variante do método MinimumCostPath de forma a calcular a sequência de pontes que inclui o caminho mais curto.
+4. Crie outra variante do método minimumCostPath de forma a calcular a sequência de pontes que inclui o caminho mais curto.
 
  ```java
  public int minimumCostPath(Vertex<Local> orig, Vertex<Local> dst, 
@@ -129,9 +129,9 @@ note que a sequência de pontes que compõem o caminho será "devolvida" atravé
      **Nota** : terá de implementar um novo método auxiliar 
  ```java
  private void dijkstra(Vertex<Local> orig,
-                          Map<Vertex<Local>, Double> costs,
-                          Map<Vertex<Local>, Vertex<Local>> predecessors
-                          Map<Vertex<Local>, Edge<Bridge,Local>> edges)`
+                       Map<Vertex<Local>, Double> costs,
+                       Map<Vertex<Local>, Vertex<Local>> predecessors
+                       Map<Vertex<Local>, Edge<Bridge,Local>> edges)`
  ```
  onde o parâmetro `Map<Vertex<Local>,Edge<Bridge,Local>> edges` irá conter a informação sobre qual a aresta a percorrer (value), dado um vértice (key).
 
