@@ -52,7 +52,7 @@ Elabore um método na classe `TadGraphMain` que implemente o método DFS.
 
 Pretende-se utilizar o algoritmo Dijktra apresentado para calcular o caminho mais curto entre dois pontos do grafo abaixo, assumindo os seguintes custos para percorrer as arestas:
 
-    * (a - 2)  (b - 1)  (c - 3) (d - 1) (g - 4) (f - 4) (e - 15) 
+    (a - 2)  (b - 1)  (c - 3) (d - 1) (g - 4) (f - 4) (e - 15) 
   
 1. Preencha a tabela que mostra o resultado da aplicação do algoritmo de Dijsktra , a partir do `Local A`.
 
@@ -61,16 +61,18 @@ Pretende-se utilizar o algoritmo Dijktra apresentado para calcular o caminho mai
 ![Graph](images/BridgesGraph.png)
 
 - Consultando a tabela construida no ponto anterior determine:
-   - Caminho de menor custo para ir de A a D ? Qual o custo?
+   - Caminho de menor custo para ir de A a D ?
+   - Qual o custo?
 
-**Nota** Como saber qual a ponte atravessada se a `a` ou `b`??
+     **Nota**: Como saber qual a ponte atravessada se a `a` ou `b`??
 
 2. De forma a saber qual a ponte percorrida entre dois locais (já que existem arestas paralelas), pretende-se modificar o algoritmo acima apresentado de forma a que este registe, não só a lista de locais percorridos, **mas também as arestas percorridas**.
 
- * Preencha esta nova a tabela que mostra o resultado da aplicação do algoritmo de Dijsktra , a partir do `Local A`. Note que ela contém mais uma coluna. 
+ * Preencha esta nova a tabela que mostra o resultado da aplicação do algoritmo de Dijsktra , a partir do `Local A`. Note que ela contém mais uma coluna.
+ * 
 ![table2](images/tableEx2.PNG)
 
-- Consultando a tabela constrida no ponto anterior determine:
+- Consultando a tabela construida no ponto anterior determine:
   - A sequência de pontes percorridas para para ir de A a D com menor custo.
   - A sequência de pontes percorridas para para ir de B a C com menor custo.
 
@@ -85,14 +87,15 @@ O algoritmo de Dijkstra irá ser implementado sobre uma instância concreta do T
 ![Graph](images/BridgesGraph.png)
 
 - Os vértices são instanciados pela classe `Local`;
-- As arestas são instanciadas pela classe `Bridge` (representa as pontes). Cada instância de Bridge terá um custo associado.
+- As arestas são instanciadas pela classe `Bridge` (representa as pontes);
+- Cada instância de Bridge terá um custo associado.
 
 1. Implemente na classe `TadGraphMain` o método:
 
  ```java
  public int minimumCostPath(Vertex<Local> orig, Vertex<Local> dst, List<Vertex<Local>> localsPath)
  ```
-que, a partir do vértice Origem e do vértice de Destino calcula o caminho mais curto. Para tal, deve implementar o **método auxiliar**:
+que, a partir do vértice Origem e do vértice de Destino, calcula o caminho mais curto. Para tal, deve implementar o **método auxiliar**:
  ```java
  /** * Performs the Dijkstra algorithm starting from 'orig'
      * @param orig the initial vertex
@@ -104,9 +107,9 @@ que, a partir do vértice Origem e do vértice de Destino calcula o caminho mais
                           Map<Vertex<Local>, Vertex<Local>> predecessors)`
  ```
 
-2. Retifique o main de forma a criar o mapa de *Konisberg* com os seguintes valores associados às pontes:
+2. Retifique o método main de forma a criar o mapa de *Konisberg* com os seguintes valores associados às pontes:
 
-*  (a - 2)  (b - 1)  (c - 3) (d - 1) (g - 4) (f - 4) (e - 15) 
+  (a - 2)  (b - 1)  (c - 3) (d - 1) (g - 4) (f - 4) (e - 15) 
 
 3. Mostre a utilização do algoritmo para:
 - Determinar o caminho de menor custo entre:
@@ -123,7 +126,7 @@ que, a partir do vértice Origem e do vértice de Destino calcula o caminho mais
  
 note que a sequência de pontes que compõem o caminho será "devolvida" através do parametro de entrada `List<Edge<Bridge,Local>> bridgePath`
  
- **Nota** : terá de implementar um novo método auxiliar 
+     **Nota** : terá de implementar um novo método auxiliar 
  ```java
  private void dijkstra(Vertex<Local> orig,
                           Map<Vertex<Local>, Double> costs,
