@@ -1,4 +1,4 @@
-# ADT Map Template
+# ADT Graph
 
 Este repositório consiste num projeto IntelliJ de suporte à lecionação de tipos abstratos de dados na linguagem Java, no contexto da unidade curricular de Programação Avançada - ESTSetúbal.
 
